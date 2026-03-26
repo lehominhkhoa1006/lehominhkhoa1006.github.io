@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khoa Le - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 { text-align: center; color: #004f90; margin-bottom: 5px; }
+        .subtitle { text-align: center; color: #666; font-style: italic; margin-top: 0; margin-bottom: 30px; }
+        
+        h2 {
+            color: #004f90;
+            border-bottom: 2px solid #004f90;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        
+        /* Chỉnh lưới 2 cột */
+        .grid-2-cols {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        
+        /* Tự động chuyển thành 1 cột nếu xem trên màn hình điện thoại nhỏ */
+        @media (max-width: 600px) {
+            .grid-2-cols { grid-template-columns: 1fr; }
+        }
+        
+        /* Thiết kế nút bấm */
+        .btn {
+            display: block;
+            background-color: #ffffff;
+            color: #004f90;
+            text-decoration: none;
+            padding: 15px;
+            border: 2px solid #004f90;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .btn:hover {
+            background-color: #004f90;
+            color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        
+        /* Nút đặc biệt cho Món khai vị */
+        .btn-social { background-color: #004f90; color: white; }
+        .btn-social:hover { background-color: #003366; }
+    </style>
+</head>
+<body>
+
+    <h1>Lê Hồ Minh Khoa</h1>
+    <p class="subtitle">Automotive Engineering Researcher & Engineer</p>
+
+    <h2>Khối 1: Media & Contact</h2>
+    <div class="grid-2-cols">
+        <a href="LINK_FACEBOOK_CUA_BAN" target="_blank" class="btn btn-social">📘 Facebook</a>
+        <a href="https://www.linkedin.com/in/khoa-le-00523037b/" target="_blank" class="btn btn-social">💼 LinkedIn</a>
+    </div>
+
+    <h2>Khối 2: Academic & Credentials</h2>
+    <div class="grid-2-cols">
+        <a href="LINK_DRIVE_BANG_DAI_HOC" target="_blank" class="btn">🎓 1. Bachelor's Degree</a>
+        <a href="LINK_DRIVE_PYTHON" target="_blank" class="btn">🐍 2. Python Certificate</a>
+        <a href="https://drive.google.com/file/d/137J2AkCwlpvYKeyiovoKm8AlD8gWLldg/view?usp=sharing" target="_blank" class="btn">⚙️ 3. Simulink Certificate</a>
+        <a href="https://drive.google.com/file/d/1U78UyD_wwEFaAShbThwus4Crdclk0VlM/view?usp=drive_link" target="_blank" class="btn">🛠️ 4. SolidWorks Certificate</a>
+        <a href="https://drive.google.com/file/d/1Mv7DqFopplXewVuz8_otRo8RRRIe6Npl/view?usp=sharing" target="_blank" class="btn">🇬🇧 5. IELTS Test Report</a>
+        <a href="https://drive.google.com/file/d/1YPL_OTcqW9izNupSEiTdJtBGDjKg3Y2j/view?usp=sharing" target="_blank" class="btn">🇩🇪 6. APS Certificate</a>
+        <a href="LINK_DRIVE_DRIVING" target="_blank" class="btn">🚗 7. Driving Certificate</a>
+        <a href="LINK_DRIVE_HONDA" target="_blank" class="btn">🔧 8. Honda Kim Thanh</a>
+        <a href="https://drive.google.com/drive/folders/1cwJz4RnMfStH4FVxUBZqWs0YGev0BTlp?usp=sharing" target="_blank" class="btn">🏛️ 9. Enterprise Seminars</a>
+    </div>
+
+    <h2>Khối 3: Technical Projects</h2>
+    <div class="grid-2-cols">
+        <a href="https://github.com/lehominhkhoa1006/Automatic-Vehicle-Quotation-Tool" target="_blank" class="btn">💻 Automatic Vehicle Quotation</a>
+        <a href="https://github.com/lehominhkhoa1006/LiDAR-Camera-Fusion-Graduation-Project" target="_blank" class="btn">📡 LiDAR & Camera Fusion</a>
+        <a href="https://github.com/lehominhkhoa1006/Python-Arduino-Autonomous-Car-Project" target="_blank" class="btn">🤖 Python Arduino Auto Car</a>
+        <a href="https://github.com/lehominhkhoa1006/RosmasterX3-RaspberryPi4B-Autonomous-Car" target="_blank" class="btn">🏎️ RosmasterX3 Auto Car</a>
+        <a href="https://github.com/lehominhkhoa1006/Toyota-Fortuner-Clutch-SolidWorks" target="_blank" class="btn">⚙️ Toyota Clutch SolidWorks</a>
+        <a href="https://github.com/lehominhkhoa1006/Driver-Drowsiness-Detection-By-Using-Webcam" target="_blank" class="btn">😴 Driver Drowsiness Detection</a>
+    </div>
+
+</body>
+</html>
